@@ -1,0 +1,24 @@
+= A fragment shader display julia sets.
+:author: David Buret
+:source-highlighter: highlightjs
+:icons: font
+:sectnums:
+:toclevels: 4
+:toc:
+:imagesdir: images/
+:gitplant: http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/DBuret/terrain/master/
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+A fragment shader display julia set, borrowing some ideas from http://www.iquilezles.org/[Inigo Quilez website]
+
+* coloring with 3 points orbit trapping
+* julia set's "c" changes with time (idea form iq's julia shadertoy)
+
+See the result on https://www.shadertoy.com/view/4sS3WG[shadertoy].
+
