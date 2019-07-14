@@ -15,10 +15,11 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-A fragment shader display julia set, borrowing some ideas from http://www.iquilezles.org/[Inigo Quilez website]
+A fragment shader display julia set, borrowing some ideas from http://www.iquilezles.org/[Inigo Quilez website] and Jussi Härkönen's master thesis http://jussiharkonen.com/gallery/coloring-techniques/[On Smooth Fractal Coloring Techniques]
 
 * coloring with 3 points orbit trapping
 * julia set's "c" changes with time (idea form iq's julia shadertoy)
 
 See the result on https://www.shadertoy.com/view/4sS3WG[shadertoy].
 
+image::sample-1.png[sample1]
